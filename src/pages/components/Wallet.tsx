@@ -32,3 +32,5 @@ export function WalletComponents() {
     </div>
   );
 }
+
+export default WalletComponents;

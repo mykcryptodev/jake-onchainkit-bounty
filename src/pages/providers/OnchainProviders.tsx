@@ -26,3 +26,5 @@ export function OnchainProviders(props: {
     </WagmiProvider>
   );
 }
+
+export default OnchainProviders;

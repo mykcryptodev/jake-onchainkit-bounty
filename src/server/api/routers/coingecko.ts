@@ -2,7 +2,7 @@ import { z } from "zod";
 
 import { env } from "~/env";
 import { createTRPCRouter, publicProcedure } from "~/server/api/trpc";
-import { type TokenListResponse, type TokenDetailResponse, type CoinsListResponse } from "~/types/coingecko";
+import { type TokenListResponse, type TokenDetailResponse } from "~/types/coingecko";
 
 export const coingeckoRouter = createTRPCRouter({
   getTokenById: publicProcedure
